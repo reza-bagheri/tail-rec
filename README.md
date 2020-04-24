@@ -1,1 +1,1 @@
-The Python files for my srticle "Python Stack Frames and Tail Recursion" in Towards Data Science.
+The Python files for my article "Python Stack Frames and Tail-Call Optimization" in Towards Data Science.
