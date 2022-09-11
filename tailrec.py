@@ -318,7 +318,7 @@ def tail_recursion(f):
                       c.co_cellvars+c.co_freevars)
 
     # Creating a new code object
-    nc = types.CodeType(c.co_argcount, c.co_kwonlyargcount,
+    nc = types.CodeType(c.co_argcount, c.co_posonlyargcount, c.co_kwonlyargcount,
                         c.co_nlocals, c.co_stacksize, c.co_flags,
                         new_co_code, c.co_consts, c.co_names, 
                         c.co_varnames, c.co_filename, c.co_name, 
